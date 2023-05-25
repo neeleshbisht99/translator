@@ -20,7 +20,7 @@ The following guides illustrate how to use some features concretely:
 
 
 Steps:
-1. sudo -u postgres psql
+1. sudo -u postgres psql or psql -U postgres
 2. create database translator;
 3. CREATE USER translator_user WITH PASSWORD 'translator_password';
 4. GRANT ALL PRIVILEGES ON DATABASE translator TO translator_user;
